@@ -6,6 +6,6 @@ Download resnet_genre.pth from https://drive.google.com/file/d/1ndigq87WDMbCDy6l
 
 or
 
-Train the model yourself using train.py and the GTZAN dataset!
+Train the model yourself using train.py and the GTZAN dataset, which you would place in classifier.fm/data/(all genres from dataset).
 
 Trained on GTZAN dataset using ResNet18.
