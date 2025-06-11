@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyTorch saved models
+*.pth
+*.pt
+
+# Flask static/generated files
+instance/
+*.db
+*.sqlite3
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aiff
+
+# Uploaded/processed user files
+static/uploads/
+static/*.wav
+
+# Logs
+*.log
+
+# VSCode and IDE metadata
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Pip dependency files
+pip-wheel-metadata/
+__pypackages__/
+
+# Training dataset
+/data

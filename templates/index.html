@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head><title>Classifier.fm</title></head>
+<body>
+  <h1>Upload a Music Clip</h1>
+  <form method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" required>
+    <input type="submit" value="Classify">
+  </form>
+  {% if genre %}
+    <h2>Predicted Genre: {{ genre }}</h2>
+  {% endif %}
+</body>
+</html>
